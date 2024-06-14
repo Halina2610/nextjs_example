@@ -34,7 +34,9 @@ export default function Characters() {
                 {characters && characters.map(characters => (
                     <>
                         <div>{characters.name}</div>
+
                     </>
+
                 ))}
             </main>
         </>
